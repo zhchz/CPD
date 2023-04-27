@@ -2,6 +2,8 @@
 
 这个项目是 Coherent Point Drift 的 C++ 版本，主要参考这篇论文 [Point Set Registration: Coherent Point Drift](https://arxiv.org/pdf/0905.2635.pdf)，而且代码的实现是基于原论文的 [MATLAB 代码](https://github.com/markeroon/matlab-computer-vision-routines/tree/master/third_party/CoherentPointDrift) 的忠实转码。计算结果跟原论文的结果是对其的。
 
+English see [README.md](https://github.com/zrzfh/CPD/blob/master/README_En.md)
+
 # 使用方法
 
 本项目是在 Ubuntu 环境下运行的，依赖于 CMake 编译。如果需要在其他平台，需要自行配置环境。
