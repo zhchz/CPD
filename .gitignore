@@ -1,0 +1,4 @@
+/bin/
+/build/
+*_debug
+*.log
