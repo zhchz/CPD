@@ -1,6 +1,6 @@
 # 简介
 
-这个项目是 Coherent Point Drift 的 C++ 版本，主要参考这篇论文 [Point Set Registration: Coherent Point Drift](https://arxiv.org/pdf/0905.2635.pdf)，而且代码的实现是基于原论文的 [MATLAB 代码](https://github.com/markeroon/matlab-computer-vision-routines/tree/master/third_party/CoherentPointDrift) 的忠实转码。计算结果跟原论文的结果是对其的。
+这个项目是 Coherent Point Drift 的 C++ 版本，主要参考这篇论文 [Point Set Registration: Coherent Point Drift](https://arxiv.org/pdf/0905.2635.pdf)，而且代码的实现是基于原论文的 [MATLAB 代码](https://github.com/markeroon/matlab-computer-vision-routines/tree/master/third_party/CoherentPointDrift) 的忠实转码。计算结果跟原论文的结果是对齐的。
 
 English see [README.md](https://github.com/zrzfh/CPD/blob/master/README_En.md)
 
@@ -20,7 +20,7 @@ English see [README.md](https://github.com/zrzfh/CPD/blob/master/README_En.md)
 
 ### Spectra
 
-大尺寸的特征值问题使用 [Spectra](https://github.com/yixuan/spectra) 库求解，不过为了采用 Krylov Schur 方法和 MATLAB 源码对其，我使用了这个 [branch](https://github.com/dotnotlock/spectra/tree/krylovschur)，在这个基础上做了一些小的改动，方便集成和调用。代码已经放到 `3rd` 目录下。
+大尺寸的特征值问题使用 [Spectra](https://github.com/yixuan/spectra) 库求解，不过为了采用 Krylov Schur 方法和 MATLAB 源码对齐，我使用了这个 [branch](https://github.com/dotnotlock/spectra/tree/krylovschur)，在这个基础上做了一些小的改动，方便集成和调用。代码已经放到 `3rd` 目录下。
 
 ### csv2
 
